@@ -20,7 +20,7 @@ ax . scatter ( X [ y ==0 , 0] , X [ y ==0 , 1] , color ='orange ', label ='Sunny
 edgecolor ='k')
 ax . scatter ( X [ y ==1 , 0] , X [ y ==1 , 1] , color ='blue ', label ='Rainy ', s =100 ,
 edgecolor ='k')
-ax . scatter ( temp , hum , color ='red ' if prediction ==1 else='orange ', marker ='*',
+ax . scatter ( temp , hum , color ='red ' if prediction ==1 else'orange ', marker ='*',
 s =300 , edgecolor ='black ', label = f'New Day: { label_map [ prediction ]} ')
 ax . set_xlabel ('Temperature ')
 ax . set_ylabel ('Humidity ')
